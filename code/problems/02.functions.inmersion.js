@@ -176,7 +176,7 @@
 // Bonus 02. Diseña una función recursiva [parts] que calcule las partes de
 // un conjunto. Las Partes de un conjunto S se definen como el conjunto
 // de todos los subconjuntos de S. Por ejemplo Partes de [1,2,3] = [
-// [], [1], [2], [3], [1,2], [1,3], [1,2,3]]. Como se muestra en el ejemplo
+// [], [1], [2], [3], [1,2], [1,3], [2,3], [1,2,3]]. Como se muestra en el ejemplo
 // deben utilizarse Arrays de Arrays para representar el resultado. El orden
 // en el que aparezcan los elementos dentro del array exterior e interiores
 // no es relevante. Es decir a todos los efectos [1,2] y [2,1] representan el

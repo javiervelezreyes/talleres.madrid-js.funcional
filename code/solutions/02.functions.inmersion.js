@@ -137,7 +137,8 @@
             reverseVAux (v, p+1, ac).concat (v[p]);
     };
     var mirrorV = function (v, w) {
-        return mirrorVFrom (v, reverseV (w), 0, true);
+        return (v.length === w.length) 
+            && mirrorVFrom (v, reverseV (w), 0, true);
     };
     var mirrorVFrom = function (v, w, p, ac) {
         return p < v.length - 1 ?
@@ -145,7 +146,7 @@
             ac;
     };
     
-    console.log (
+    console.log (mirrorV ([2, 4, 6], [8, 6, 4]),
         mirrorV ([2, 4, 6], []),            // false
         mirrorV ([2, 4, 6], [2, 4, 6]),     // false
         mirrorV ([2, 4, 6], [6, 4]),        // false
