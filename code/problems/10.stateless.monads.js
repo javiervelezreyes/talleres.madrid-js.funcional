@@ -122,10 +122,12 @@
 (function (/* 03. Monad Reader */) {
     
     function Reader (fn) {
-
+        this.run = fn || function (x) { return x; };
     }
     Reader.prototype.bind = function (fn) {
-
+        return new Reader (function (x) {
+            return fn (this.run (x)).run (x);
+        }.bind (this));
     };
     
     var sqr    = function (x) { return new Reader (function (x) { return x * x; }); };
