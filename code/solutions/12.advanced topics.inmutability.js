@@ -19,7 +19,7 @@
                     void 0;
             },
             tail: function () {
-                items = items.slice (1);
+                items.splice (0, 1);
                 return this;
             },
             insert: function (e) {
@@ -57,9 +57,9 @@
     list.insert (4);
     
     console.log (
-        list.first (),      // 2
+        list.first (),      // 4
         list.size (),       // 3
-        list.toArray ()     // [ 2, 3, 4 ]
+        list.toArray ()     // [ 4, 2, 3 ]
     );
     
 })();

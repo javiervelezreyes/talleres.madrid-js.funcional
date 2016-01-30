@@ -57,8 +57,8 @@
     
     var mapWithSqr = mapWith (sqr);
     var mapWithInc = mapWith (inc);
-    var reduceWithAdd = reduceWith (add);
-    var reduceWithMul = reduceWith (mul);
+    var reduceWithAdd = reduceWith (add, 0);
+    var reduceWithMul = reduceWith (mul, 1);
     
     console.log (
         mapWithSqr ([1,2,3]),       // [ 1, 4, 9 ]

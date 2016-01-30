@@ -89,10 +89,10 @@
 
     };
     
-    var sqr    = function (x) { return new Writer (x * x, 'square');    };
-    var inc    = function (x) { return new Writer (x + 1, 'increment'); };
-    var dec    = function (x) { return new Writer (x + 1, 'decrement'); };
-    var double = function (x) { return new Writer (2 * x, 'double');    };
+    var sqr    = function (x) { return new Writer (x * x, ['square']);    };
+    var inc    = function (x) { return new Writer (x + 1, ['increment']); };
+    var dec    = function (x) { return new Writer (x + 1, ['decrement']); };
+    var double = function (x) { return new Writer (2 * x, ['double']);    };
     
     console.log (
         new Writer (3)
@@ -106,7 +106,6 @@
     );
     
 })();
-
 
 // 03. En ocasiones se requiere que el comportamiento de una función dependa de
 // condiciones ambientales resueltas en tiempo de ejecución. Por ejemplo, un valor

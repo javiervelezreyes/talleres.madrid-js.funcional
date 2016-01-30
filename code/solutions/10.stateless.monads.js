@@ -87,18 +87,17 @@
     
     function Writer (value, log) {
         this.value = value;
-        this.log   = log ? [log] : [];
+        this.log   = log || [];
     }
     Writer.prototype.bind = function (fn) {
         var r = fn (this.value);
-        r.log = this.log.concat (r.log);
-        return r;
+        return new Writer (r.value, this.log.concat (r.log));
     };
     
-    var sqr    = function (x) { return new Writer (x * x, 'square');    };
-    var inc    = function (x) { return new Writer (x + 1, 'increment'); };
-    var dec    = function (x) { return new Writer (x + 1, 'decrement'); };
-    var double = function (x) { return new Writer (2 * x, 'double');    };
+    var sqr    = function (x) { return new Writer (x * x, ['square']);    };
+    var inc    = function (x) { return new Writer (x + 1, ['increment']); };
+    var dec    = function (x) { return new Writer (x + 1, ['decrement']); };
+    var double = function (x) { return new Writer (2 * x, ['double']);    };
     
     console.log (
         new Writer (3)
