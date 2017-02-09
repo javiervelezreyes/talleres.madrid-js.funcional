@@ -47,7 +47,7 @@ Licenciado por la UPM desde el año 2001 y doctor en informática por la UNED de
 
 - eMail: javier.velez.reyes@gmail.com 
 - Twitter: @javiervelezreye
-- LinkedIn: inkedin.com/in/javiervelezreyes 
+- LinkedIn: linkedin.com/in/javiervelezreyes 
 - Google+: gplus.to/javiervelezreyes 
 - Slideshare: jvelez77
 - Github: javiervelezreyes 
