@@ -190,7 +190,7 @@
 // prototipo.
 
 (function (/* 04. Monad state */) {
-    
+
       var _;
 
       function State (fn, fns) {
@@ -232,7 +232,7 @@
           });
       };
 
-      console.log ( // { value: 3, state: [ 1, 2 ] }
+      console.log ( // { value: 2, state: [ 1 ] }
           new State ()
                 .bind (push (1))
                 .bind (push (2))
@@ -245,7 +245,7 @@
 })();
 
 
-// 05. La mónada de colección se utiliza para salvar la diferencia entre colecciones y
+// 05. La mónada List se utiliza para salvar la diferencia entre colecciones y
 // elementos de colección en el marco de una composición funcional. La monada eleva el
 // elemento atómico a una colección con ese dato  como único elemento de la misma y así
 // homogeniza la estructura de datos lo que permite articular composiciones más fácilmente.
