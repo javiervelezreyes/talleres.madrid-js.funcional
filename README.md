@@ -33,27 +33,31 @@ Todos estos temas se abordan en 12 ficheros `.js` que se encuentran en la carpet
 Licenciado por la UPM desde el año 2001 y doctor en informática por la UNED desde el año 2009, Javier conjuga sus labores como profesor e investigador con la consultoría y la formación técnica para empresa. Su línea de trabajo actual se centra en la innovación y desarrollo de tecnologías para la Web. Además realiza actividades de evangelización y divulgación en diversas comunidades IT y es coordinador de varios grupos de ámbito local como NodeJS Madrid o Madrid JS. Forma parte del programa Polymer Polytechnic Speaker y es mentor del capítulo de Madrid de Node School.
 
 ### Tags
-- Desarrollado Front/Back 
+- Desarrollado Front/Back
 - Evangelización Web
 - Arquitectura Software
 - Formación & Consultoría IT
 - e-learning
-- Diseño de Sistemas de Colaboración 
-- Learning Analytics 
+- Diseño de Sistemas de Colaboración
+- Learning Analytics
 - Gamificación Colaborativa
 
 
 ### Contacto
 
-- eMail: javier.velez.reyes@gmail.com 
+- eMail: javier.velez.reyes@gmail.com
 - Twitter: @javiervelezreye
-- LinkedIn: inkedin.com/in/javiervelezreyes 
-- Google+: gplus.to/javiervelezreyes 
+- LinkedIn: inkedin.com/in/javiervelezreyes
+- Google+: gplus.to/javiervelezreyes
 - Slideshare: jvelez77
-- Github: javiervelezreyes 
+- Github: javiervelezreyes
 - Youtube: youtube.com/user/javiervelezreyes
 
 ### Referencias
-- Video: 
-- Slideshare: -
-- Github: https://goo.gl/YwXtkV
+- Videos:
+    - [Taller de programación funcional con Javascript por Javier Vélez (primera parte)](https://player.vimeo.com/video/152207268).- Recursividad e inmersión
+    - [Taller de programación funcional con Javascript por Javier Vélez (segunda parte)](https://player.vimeo.com/video/152207269).- Familia map / reduce y evaluación parcial.
+    - [Taller avanzado de programación funcional con Javascript por Javier Vélez (primera parte)](https://player.vimeo.com/video/154318101)
+    - [Taller avanzado de programación funcional con Javascript por Javier Vélez (segunda parte)](https://player.vimeo.com/video/154318102)
+- [Slideshare](https://www.slideshare.net/jvelez77/taller-de-programacin-funcional-en-javascript)
+- [Github Original](https://goo.gl/YwXtkV)
